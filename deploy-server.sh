@@ -19,7 +19,7 @@ if [[ "$(uname -s)" == *"NT"* ]] || grep -qE "Windows|MINGW|MSYS" <<< "$OS" && [
 fi
 
 # --- Constants ---
-REPO_URL="https://github.com/damian-lienhart/political-representation-dashboard.git"
+REPO_URL="https://gitlab.ti.bfh.ch/political-representation-dashboard/political-representation-dashboard.git"
 BRANCH="main"
 ENV_FILE=".env.deploy"
 DOCKER_COMPOSE_FILE="docker-compose.prod.yml"
