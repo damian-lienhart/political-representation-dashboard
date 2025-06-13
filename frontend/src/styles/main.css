@@ -1,0 +1,9 @@
+@import './charts.css';
+@import './layout.css';
+
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #fafafa;
+    color: #111827;
+}

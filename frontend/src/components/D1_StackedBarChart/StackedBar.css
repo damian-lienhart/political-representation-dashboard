@@ -1,0 +1,46 @@
+.chart-container {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+    position: relative;
+}
+
+.chart-tooltip {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #111827;
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.chart-legend {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #1e293b;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+    margin-right: 6px;
+    display: inline-block;
+}

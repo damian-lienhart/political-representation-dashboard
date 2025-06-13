@@ -1,0 +1,129 @@
+{
+  "common": {
+    "yearFrom": "Par année",
+    "yearTo": "A l'année",
+    "loading": "Chargement des données...",
+    "filterActor": "Acteur",
+    "sortBy": "Classer par",
+    "sortName": "Nom (A-Z)",
+    "sortAvg": "Ø Correspondance",
+    "PercAvg": "Pourcentage de correspondance",
+    "ueber": "Correspondance",
+    "nichtUeber": " Pas de correspondance",
+    "Bundesrat": "Conseil fédéral",
+    "Parlament": "Parlement",
+    "partyGlossary": "Liste des parties",
+    "resetZoom": "Réinitialiser le zoom",
+    "decade": "Décennie",
+    "year": "Année",
+    "Abstimmungstag": "Jour de vote",
+    "Vorlage": "Proposition"
+
+  },
+  "intro": {
+    "projectTitle": "Tableau de représentation politique",
+    "projectDescription": "Ce tableau de bord évalue dans quelle mesure les institutions politiques – Conseil fédéral, Parlement et partis politiques – représentent la volonté du peuple lors des votations fédérales. Les recommandations sont comparées au résultat réel du vote afin de calculer une valeur numérique de représentativité.",
+    "formulaTitle": "Formule :",
+    "tooltip": "R(V, A) résulte de la comparaison entre A(V) (recommandation) et S(V) (décision populaire).",
+    "formulaExplanation": "A(V) est la recommandation de l’acteur A (par ex. Conseil fédéral, Parlement, parti) sur la proposition V, et S(V) est le verdict du peuple."
+  },
+
+  "formulaValues": {
+    "plusOne": " → La recommandation correspond à la décision populaire.",
+    "zero": " → L’acteur s’est abstenu (pas de recommandation).",
+    "minusOne": " → La recommandation contredit la décision populaire.",
+    "if": "si"
+  },
+
+
+  "home": {
+    "diagram1Title": "Recommandations du Conseil fédéral/Parlement par rapport à la décision du peuple",
+    "diagram2Title": "Représentativité des partis dans le temps",
+    "diagram3Title": "Les instances politiques face au référendum",
+    "diagram4Title": "Représentation cantonale de la politique",
+    "diagram5Title": "Diagramm 5",
+    "diagram6Title": "Diagramm 6"
+  },
+  "diagram1": {
+    "descriptionTitle": "Que montre le diagramme?",
+    "descriptionText": "Ce diagramme montre combien de fois le peuple est d'accord avec les recommandations du Conseil fédéral et du Parlement.\n\nUne concordance signifie que le conseil et le peuple ont tous deux voté oui ou non. Dans le cas contraire, on considère qu'il n'y a pas de concordance.\n\nLes listes déroulantes ci-dessus permettent de limiter la période.\n\nDepuis le 15 janvier 2009, le Conseil fédéral et le Parlement défendent la même recommandation de vote. Par conséquent, à partir de cette date, seule la recommandation du Parlement est prise en compte.",
+    "tooltipMatch": "Concordance",
+    "tooltipNomatch": "Aucune correspondance"
+  },
+  "diagram2": {
+    "descriptionTitle": "Que montre le diagramme?",
+    "descriptionText": "Cette visualisation montre à quel point les positions des partis sont en accord avec la décision du peuple.\n\nChaque ligne représente un parti. L'axe y montre la proportion de votes pour lesquels la recommandation du parti est en accord avec la décision populaire.",
+    "legendToggle": "Sélectionner un parti"
+  },
+  "diagram3": {
+    "descriptionTitle": "Que montre le diagramme?",
+    "descriptionText": "Cette carte de chaleur montre à quelle fréquence les recommandations des acteurs politiques concordent avec la décision du peuple - regroupées par décennie.\n\nPlus une case est verte, plus la concordance est élevée. Les tons rouges indiquent une faible concordance.\n\nEn passant la souris, les détails s'affichent et la ligne est mise en évidence."
+  },
+  "diagram4": {
+    "descriptionTitle": "Que montre le diagramme?",
+    "descriptionText": "Cette carte montre dans quelle mesure les recommandations de l'acteur choisi correspondent à la décision populaire dans les différents cantons.\n\nL'intensité de la couleur indique le niveau de concordance. Sélectionnez en haut Conseil fédéral ou un parti.",
+    "tooltipLabel": "Concordance"
+  },
+
+  "parties": {
+    "fdp": { "short": "PLR", "full": "PLR.Les Libéraux-Radicaux" },
+    "sps": { "short": "PSS", "full": "Parti socialiste suisse" },
+    "svp": { "short": "UDC", "full": "Union démocratique du centre" },
+    "mitte": { "short": "Le Centre", "full": "Le Centre" },
+    "evp": { "short": "PEV", "full": "Parti évangélique suisse" },
+    "gps": { "short": "Les Verts", "full": "les VERT-E-S suisses" },
+    "glp": { "short": "PVL", "full": "Parti vert’libéral Suisse" },
+    "pda": { "short": "PsT", "full": "Parti suisse du Travail" },
+    "sd": { "short": "DS", "full": "Démocrates Suisses" },
+    "edu": { "short": "UDF", "full": "Union démocratique fédérale" },
+    "fps": { "short": "PLS", "full": "Parti libertaire suisse" },
+    "lega": { "short": "Lega", "full": "Ligue des Tessinois" },
+    "kvp": { "short": "PK", "full": "Parti catholique conservateur" },
+    "mcg": { "short": "MCG", "full": "Mouvement Citoyens Genevois" },
+    "ucsp": { "short": "PCS", "full": "Parti chrétien-social" },
+    "cvp": { "short": "PDC", "full": "Larti démocrate-chrétien" },
+    "bdp": { "short": "PBD", "full": "Parti bourgeois démocratique Suisse" },
+    "lps": { "short": "PLS", "full": "Parti libéral suisse" },
+    "ldu": { "short": "AdI", "full": "Alliance des Indépendants" },
+    "poch": { "short": "POCH", "full": "Organisations progressistes de Suisse" },
+    "rep": { "short": "REP", "full": "Mouvement national d’action républicaine" }
+  },
+  "cantons": {
+    "ZH": "Zurich",
+    "BE": "Berne",
+    "LU": "Lucerne",
+    "UR": "Uri",
+    "SZ": "Schwytz",
+    "OW": "Obwald",
+    "NW": "Nidwald",
+    "GL": "Glaris",
+    "ZG": "Zoug",
+    "FR": "Fribourg",
+    "SO": "Soleure",
+    "BS": "Bâle-Ville",
+    "BL": "Bâle-Campagne",
+    "SH": "Schaffhouse",
+    "AR": "Appenzell Rhodes-Extérieures",
+    "AI": "Appenzell Rhodes-Intérieures",
+    "SG": "Saint-Gall",
+    "GR": "Grisons",
+    "AG": "Argovie",
+    "TG": "Thurgovie",
+    "TI": "Tessin",
+    "VD": "Vaud",
+    "VS": "Valais",
+    "NE": "Neuchâtel",
+    "GE": "Genève",
+    "JU": "Jura"
+  },
+  "footer": {
+    "dataSource": "Source des données :",
+    "projectInfo": "Ce tableau de bord a été développé dans le cadre d'un projet d'études à la Haute école spécialisée bernoise (BFH).",
+    "authors": "Auteurs : ",
+    "supervisor": "Supervisé par : ",
+    "license": "L'ensemble du code source est sous licence"
+  }
+
+}
+
+

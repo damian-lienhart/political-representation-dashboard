@@ -1,0 +1,127 @@
+{
+  "common": {
+    "yearFrom": "Von Jahr",
+    "yearTo": "Bis Jahr",
+    "loading": "Lade Daten...",
+    "filterActor": "Akteur",
+    "sortBy": "Sortieren nach",
+    "sortName": "Name (A-Z)",
+    "sortAvg": "Ø Übereinstimmung",
+    "PercAvg": "Prozent der Übereinstimmung",
+    "ueber": "Übereinstimmung",
+    "nichtUeber": "Keine Übereinstimmung",
+    "Bundesrat": "Bundesrat",
+    "Parlament": "Parlament",
+    "partyGlossary": "Parteienverzeichnis",
+    "resetZoom": "Zoom zurücksetzen",
+    "decade": "Jahrzehnt",
+    "year": "Jahr",
+    "Abstimmungstag": "Abstimmungstag",
+    "Vorlage": "Vorlage"
+  },
+  "intro": {
+    "projectTitle": "Dashboard zur politischen Repräsentation",
+    "projectDescription": "Dieses Dashboard analysiert, wie gut politische Institutionen – Bundesrat, Parlament und politische Parteien – den Volkswillen in eidgenössischen Abstimmungen repräsentieren. Die Empfehlungen werden mit dem tatsächlichen Abstimmungsergebnis verglichen, um einen numerischen Repräsentativitätswert zu berechnen.",
+    "formulaTitle": "Formel:",
+    "tooltip": "R(V, A) ergibt sich durch den Vergleich von A(V) (Empfehlung) mit S(V) (Volksentscheid).",
+    "formulaExplanation": "A(V) ist die Empfehlung des Akteurs A (z. B. Bundesrat, Parlament, Partei) zur Vorlage V, und S(V) das Verdikt des Volkes."
+  },
+
+  "formulaValues": {
+    "plusOne": " → Empfehlung entspricht dem Volksentscheid.",
+    "zero": " → Der Akteur hat sich enthalten.",
+    "minusOne": " → Empfehlung widerspricht dem Volksentscheid.",
+    "if": "wenn"
+  },
+
+  "home": {
+    "diagram1Title": "Empfehlungen von Bundesrat/Parlament im Vergleich zum Volksentscheid",
+    "diagram2Title": "Partei-Repräsentativität über Zeit",
+    "diagram3Title": "Politische Instanzen im Vergleich zum Volksentscheid",
+    "diagram4Title": "Kantonale Repräsentation der Politik",
+    "diagram5Title": "Diagramm 5",
+    "diagram6Title": "Diagramm 6"
+  },
+  "diagram1": {
+    "descriptionTitle": "Was zeigt das Diagramm?",
+    "descriptionText": "Dieses Diagramm zeigt, wie oft das Volk mit den Empfehlungen des Bundesrates und des Parlaments übereinstimmt.\n\nEine Übereinstimmung bedeutet, dass sowohl das Gremium als auch das Volk Ja oder Nein gestimmt haben. Andernfalls gilt es als keine Übereinstimmung.\n\nÜber die Dropdowns oben kann der Zeitraum eingeschränkt werden.\n\nSeit dem 15. Januar 2009 vertreten Bundesrat und Parlament dieselbe Abstimmungsempfehlung. Daher wird ab diesem Datum nur noch die Empfehlung des Parlaments berücksichtigt.",
+    "tooltipMatch": "Übereinstimmung",
+    "tooltipNomatch": "Keine Übereinstimmung"
+  },
+  "diagram2": {
+    "descriptionTitle": "Was zeigt das Diagramm?",
+    "descriptionText": "Diese Visualisierung zeigt, wie stark die Positionen der Parteien mit dem Volksentscheid übereinstimmen.\n\nJede Linie stellt eine Partei dar. Die y-Achse zeigt den Anteil an Abstimmungen, bei denen die Parteiempfehlung mit dem Volksentscheid übereinstimmt.",
+    "legendToggle": "Partei auswählen"
+  },
+  "diagram3": {
+    "descriptionTitle": "Was zeigt das Diagramm?",
+    "descriptionText": "Diese Heatmap zeigt, wie häufig die Empfehlungen von politischen Akteuren mit dem Entscheid des Volkes übereinstimmen – gruppiert nach Jahrzehnt.\n\nJe grüner ein Feld, desto höher die Übereinstimmung. Rottöne zeigen geringe Übereinstimmung.\n\nBeim Überfahren mit der Maus werden Details angezeigt und die Zeile hervorgehoben."
+  },
+  "diagram4": {
+    "descriptionTitle": "Was zeigt das Diagramm?",
+    "descriptionText": "Diese Karte zeigt, wie oft die Empfehlungen des gewählten Akteurs mit dem Volksentscheid in den einzelnen Kantonen übereinstimmen.\n\nDie Farbstärke zeigt die Höhe der Übereinstimmung. Wählen Sie oben Bundesrat oder eine Partei.",
+    "tooltipLabel": "Übereinstimmung"
+  },
+
+  "parties": {
+    "fdp": { "short": "FDP", "full": "FDP.Die Liberalen" },
+    "sps": { "short": "SPS", "full": "Sozialdemokratische Partei der Schweiz" },
+    "svp": { "short": "SVP", "full": "Schweizerische Volkspartei" },
+    "mitte": { "short": "Die Mitte", "full": "Die Mitte" },
+    "evp": { "short": "EVP", "full": "Evangelische Volkspartei der Schweiz" },
+    "gps": { "short": "Grüne", "full": "GRÜNE Schweiz" },
+    "glp": { "short": "GLP", "full": "Die Grünliberale Partei Schweiz" },
+    "pda": { "short": "PdA", "full": "Partei der Arbeit der Schweiz" },
+    "sd": { "short": "SD", "full": "Schweizer Demokraten" },
+    "edu": { "short": "EDU", "full": "Eidgenössisch-Demokratische Union" },
+    "fps": { "short": "FPS", "full": "Freiheitliche Partei der Schweiz (Auto-Partei)" },
+    "lega": { "short": "Lega", "full": "Liga der Tessiner" },
+    "kvp": { "short": "KVP", "full": "Katholische Volkspartei" },
+    "mcg": { "short": "MCG", "full": "Genfer Bürgerbewegung" },
+    "ucsp": { "short": "CSP", "full": "Christlichsoziale Partei der Schweiz" },
+    "cvp": { "short": "CVP", "full": "Christlichdemokratische Volkspartei der Schweiz" },
+    "bdp": { "short": "BDP", "full": "Bürgerlich-Demokratische Partei" },
+    "lps": { "short": "LPS", "full": "Liberale Partei der Schweiz" },
+    "ldu": { "short": "LDU", "full": "Landesring der Unabhängigen" },
+    "poch": { "short": "POCH", "full": "Progressive Organisationen der Schweiz" },
+    "rep": { "short": "REP", "full": "Movimento repubblicano" }
+  },
+  "cantons": {
+    "ZH": "Zürich",
+    "BE": "Bern",
+    "LU": "Luzern",
+    "UR": "Uri",
+    "SZ": "Schwyz",
+    "OW": "Obwalden",
+    "NW": "Nidwalden",
+    "GL": "Glarus",
+    "ZG": "Zug",
+    "FR": "Freiburg",
+    "SO": "Solothurn",
+    "BS": "Basel-Stadt",
+    "BL": "Basel-Landschaft",
+    "SH": "Schaffhausen",
+    "AR": "Appenzell Ausserrhoden",
+    "AI": "Appenzell Innerrhoden",
+    "SG": "St. Gallen",
+    "GR": "Graubünden",
+    "AG": "Aargau",
+    "TG": "Thurgau",
+    "TI": "Tessin",
+    "VD": "Waadt",
+    "VS": "Wallis",
+    "NE": "Neuenburg",
+    "GE": "Genf",
+    "JU": "Jura"
+  },
+  "footer": {
+    "dataSource": "Datenquelle:",
+    "projectInfo": "Dieses Dashboard wurde im Rahmen eines Studienprojekts an der Berner Fachhochschule (BFH) entwickelt.",
+    "authors": "Autoren: ",
+    "supervisor": "Betreut von: ",
+    "license": "Der gesamte Quellcode steht unter der"
+  }
+
+}
+
+

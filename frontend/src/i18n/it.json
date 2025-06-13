@@ -1,0 +1,188 @@
+{
+  "common": {
+    "yearFrom": "Dall'anno",
+    "yearTo": "Fino all'anno",
+    "loading": "Caricamento dati...",
+    "filterActor": "Attore",
+    "sortBy": "Ordina per",
+    "sortName": "Nome (A-Z)",
+    "sortAvg": "Ø Conformità",
+    "PercAvg": "Percentuale di accordo",
+    "ueber": "Accordo",
+    "nichtUeber": "Nessuna corrispondenza",
+    "Bundesrat": "Consiglio federale",
+    "Parlament": "Parlamento",
+    "partyGlossary": "Elenco dei partiti",
+    "resetZoom": "Ripristina zoom",
+    "decade": "Decennio",
+    "year": "Anno",
+    "Abstimmungstag": "Giorno di voto",
+    "Vorlage": "Proposta"
+  },
+  "intro": {
+    "projectTitle": "Dashboard della rappresentanza politica",
+    "projectDescription": "Questa dashboard valuta quanto bene le istituzioni politiche – Consiglio federale, Parlamento e partiti politici – rappresentano la volontà del popolo nei referendum federali. Le raccomandazioni vengono confrontate con il risultato effettivo del voto per calcolare un valore numerico di rappresentatività.",
+    "formulaTitle": "Formula:",
+    "tooltip": "R(V, A) deriva dal confronto tra A(V) (raccomandazione) e S(V) (decisione popolare).",
+    "formulaExplanation": "A(V) è la raccomandazione dell’attore A (ad es. Consiglio federale, Parlamento, partito) sulla proposta V, e S(V) è il verdetto del popolo."
+  },
+
+  "formulaValues": {
+    "plusOne": " → La raccomandazione corrisponde alla decisione popolare.",
+    "zero": " → L’attore si è astenuto (nessuna raccomandazione).",
+    "minusOne": " → La raccomandazione contraddice la decisione popolare.",
+    "if": "se"
+  },
+
+  "home": {
+    "diagram1Title": "Raccomandazioni del Consiglio federale/Parlamento rispetto al referendum",
+    "diagram2Title": "Rappresentatività dei partiti nel tempo",
+    "diagram3Title": "Istanze politiche rispetto al referendum",
+    "diagram4Title": "Rappresentazione politica cantonale",
+    "diagram5Title": "Diagramm 5",
+    "diagram6Title": "Diagramm 6"
+  },
+  "diagram1": {
+    "descriptionTitle": "Cosa mostra il diagramma?",
+    "descriptionText": "Questo diagramma mostra la frequenza con cui il popolo è d'accordo con le raccomandazioni del Consiglio federale e del Parlamento.\n\nAccordo significa che sia la commissione che il popolo hanno votato a favore o contro. In caso contrario, non c'è accordo.\n\nIl periodo di tempo può essere limitato utilizzando i menu a tendina in alto.\n\nDal 15 gennaio 2009, il Consiglio federale e il Parlamento hanno la stessa raccomandazione di voto. Pertanto, a partire da questa data, si tiene conto solo della raccomandazione del Parlamento.",
+    "tooltipMatch": "Accordo",
+    "tooltipNomatch": "Nessuna corrispondenza"
+  },
+  "diagram2": {
+    "descriptionTitle": "Cosa mostra il diagramma?",
+    "descriptionText": "Questa visualizzazione mostra la misura in cui le posizioni dei partiti coincidono con il referendum.\n\nOgni linea rappresenta un partito. L'asse delle ordinate mostra la percentuale di voti in cui la raccomandazione del partito è d'accordo con il referendum.",
+    "legendToggle": "Seleziona il partito"
+  },
+  "diagram3": {
+    "descriptionTitle": "Cosa mostra il diagramma?",
+    "descriptionText": "Questa mappa di calore mostra quanto spesso le raccomandazioni degli attori politici coincidono con le decisioni dei cittadini - raggruppate per decennio.\n\nPiù il campo è verde, più alto è il livello di accordo. Le sfumature di rosso indicano un basso livello di accordo.\n\nI dettagli vengono visualizzati e la linea viene evidenziata quando ci si passa sopra con il mouse."
+  },
+  "diagram4": {
+    "descriptionTitle": "Cosa mostra il diagramma?",
+    "descriptionText": "Questa mappa mostra la frequenza con cui le raccomandazioni dell'attore selezionato concordano con il referendum nei singoli cantoni.\n\nL'intensità del colore indica il livello di accordo. Selezionare il Consiglio federale o un partito in alto.",
+    "tooltipLabel": "Accordo"
+  },
+  "parties": {
+    "fdp": {
+      "short": "PLR",
+      "full": "PLR.I Liberali Radicali"
+    },
+    "sps": {
+      "short": "PS",
+      "full": "Partito Socialista Svizzero"
+    },
+    "svp": {
+      "short": "UDC",
+      "full": "Unione Democratica di Centro"
+    },
+    "mitte": {
+      "short": "Il Centro",
+      "full": "Il Centro"
+    },
+    "evp": {
+      "short": "PEV",
+      "full": "Partito Evangelico Svizzero"
+    },
+    "gps": {
+      "short": "I Verdi",
+      "full": "I VERDI"
+    },
+    "glp": {
+      "short": "PVL",
+      "full": "Partito Verde Liberale svizzero"
+    },
+    "pda": {
+      "short": "POP",
+      "full": "Partito Operaio e Popolare"
+    },
+    "sd": {
+      "short": "DS",
+      "full": "Democratici Svizzeri"
+    },
+    "edu": {
+      "short": "UDF",
+      "full": "Unione Democratica Federale"
+    },
+    "fps": {
+      "short": "PFS",
+      "full": "Partito della Libertà Svizzera"
+    },
+    "lega": {
+      "short": "Lega",
+      "full": "Lega dei Ticinesi"
+    },
+    "kvp": {
+      "short": "PK",
+      "full": "Partito Cattolico Conservatore"
+    },
+    "mcg": {
+      "short": "MCG",
+      "full": "Movimento dei Cittadini Ginevrini"
+    },
+    "ucsp": {
+      "short": "PCS",
+      "full": "Partito Cristiano Sociale"
+    },
+    "cvp": {
+      "short": "PPD",
+      "full": "Partito Popolare Democratico"
+    },
+    "bdp": {
+      "short": "PBD",
+      "full": "Partito borghese democratico Svizzera"
+    },
+    "lps": {
+      "short": "PLS",
+      "full": "Partito Liberale Svizzero"
+    },
+    "ldu": {
+      "short": "AdI",
+      "full": "Anello dei Democratici Indipendenti"
+    },
+    "poch": {
+      "short": "POCH",
+      "full": "Organizzazioni progressiste della Svizzera"
+    },
+    "rep": {
+      "short": "REP",
+      "full": "Repubblicani"
+    }
+  },
+  "cantons": {
+    "ZH": "Zurigo",
+    "BE": "Berna",
+    "LU": "Lucerna",
+    "UR": "Uri",
+    "SZ": "Svitto",
+    "OW": "Obvaldo",
+    "NW": "Nidvaldo",
+    "GL": "Glarona",
+    "ZG": "Zugo",
+    "FR": "Friburgo",
+    "SO": "Soletta",
+    "BS": "Basilea Città",
+    "BL": "Basilea Campagna",
+    "SH": "Sciaffusa",
+    "AR": "Appenzello Esterno",
+    "AI": "Appenzello Interno",
+    "SG": "San Gallo",
+    "GR": "Grigioni",
+    "AG": "Argovia",
+    "TG": "Turgovia",
+    "TI": "Ticino",
+    "VD": "Vaud",
+    "VS": "Vallese",
+    "NE": "Neuchâtel",
+    "GE": "Ginevra",
+    "JU": "Giura"
+  },
+  "footer": {
+    "dataSource": "Fonte dei dati:",
+    "projectInfo": "Questa dashboard è stata sviluppata nell'ambito di un progetto di studio presso la Scuola universitaria professionale di Berna (BFH).",
+    "authors": "Autori: ",
+    "supervisor": "Supervisore: ",
+    "license": "Tutto il codice sorgente è concesso in licenza"
+  }
+}
+
+

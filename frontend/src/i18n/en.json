@@ -1,0 +1,124 @@
+{
+  "common": {
+    "yearFrom": "From Year",
+    "yearTo": "To Year",
+    "loading": "Loading...",
+    "filterActor": "Actor",
+    "sortBy": "Sort by",
+    "sortName": "Name (A-Z)",
+    "sortAvg": "Avg. Alignment",
+    "PercAvg": "Percentage of Agreement",
+    "ueber": "Agreement",
+    "nichtUeber": "Disagreement",
+    "Bundesrat": "Federal Council",
+    "Parlament": "Parliament",
+    "partyGlossary": "Party Glossary",
+    "resetZoom": "Reset Zoom",
+    "decade": "Decade",
+    "year": "Year",
+    "Abstimmungstag": "Voting Day",
+    "Vorlage": "Proposal"
+  },
+  "intro": {
+    "projectTitle": "Political Representation Dashboard",
+    "projectDescription": "This dashboard evaluates how well political institutions – Federal Council, Parliament, and political parties – represent the will of the people in national referendums. Recommendations are compared to the actual voting outcome to derive a numeric representativeness value.",
+    "formulaTitle": "Formula:",
+    "tooltip": "R(V, A) results from comparing A(V) (recommendation) with S(V) (public decision).",
+    "formulaExplanation": "A(V) is the recommendation of actor A (e.g. Federal Council, Parliament, party) on proposal V, and S(V) is the verdict of the public."
+  },
+
+  "formulaValues": {
+    "plusOne": " → Recommendation matches public decision.",
+    "zero": " → The actor abstained (no recommendation).",
+    "minusOne": " → Recommendation contradicts public decision.",
+    "if": "if"
+  },
+
+  "home": {
+    "diagram1Title": "Recommendations by Federal Council/Parliament vs Public Decision",
+    "diagram2Title": "Party Representation Over Time",
+    "diagram3Title": "Institutions Compared to Public Decision",
+    "diagram4Title": "Cantonal Political Representation",
+    "diagram5Title": "Diagram 5",
+    "diagram6Title": "Diagram 6"
+  },
+  "diagram1": {
+    "descriptionTitle": "What does the diagram show?",
+    "descriptionText": "This diagram shows how often the public agrees with the recommendations of the Federal Council and the Parliament.\n\nAn agreement means that both the institution and the public voted Yes or No. Otherwise, it is considered a disagreement.\n\nThe period can be adjusted using the dropdowns above.\n\nSince January 15, 2009, the Federal Council and Parliament have shared the same voting recommendation. Therefore, from that date onwards, only the Parliament’s recommendation is considered.",
+    "tooltipMatch": "Agreement",
+    "tooltipNomatch": "Disagreement"
+  },
+  "diagram2": {
+    "descriptionTitle": "What does the diagram show?",
+    "descriptionText": "This visualization shows how closely party positions align with public voting outcomes.\n\nEach line represents a party. The y-axis shows the percentage of votes where the party's recommendation matched the public decision.",
+    "legendToggle": "Select party"
+  },
+  "diagram3": {
+    "descriptionTitle": "What does the diagram show?",
+    "descriptionText": "This heatmap shows how often recommendations from political actors aligned with the public's decision – grouped by decade.\n\nThe greener a cell, the higher the agreement. Red tones indicate lower agreement.\n\nHovering over a row displays more details and highlights the line."
+  },
+  "diagram4": {
+    "descriptionTitle": "What does the diagram show?",
+    "descriptionText": "This map shows how often the selected actor’s recommendations aligned with public voting outcomes by canton.\n\nThe color intensity indicates the level of agreement. Select Federal Council or a party above.",
+    "tooltipLabel": "Agreement"
+  },
+  "parties": {
+    "fdp": { "short": "FDP", "full": "The Liberals" },
+    "sps": { "short": "SPS", "full": "Social Democratic Party of Switzerland" },
+    "svp": { "short": "SVP", "full": "Swiss People's Party" },
+    "mitte": { "short": "The Centre", "full": "The Centre (Die Mitte)" },
+    "evp": { "short": "EVP", "full": "Evangelical People's Party of Switzerland" },
+    "gps": { "short": "Greens", "full": "Green Party of Switzerland" },
+    "glp": { "short": "GLP", "full": "Green Liberal Party of Switzerland" },
+    "pda": { "short": "PdA", "full": "Swiss Party of Labour" },
+    "sd": { "short": "SD", "full": "Swiss Democrats" },
+    "edu": { "short": "EDU", "full": "Federal Democratic Union of Switzerland" },
+    "fps": { "short": "FPS", "full": "Freedom Party of Switzerland (Auto Party)" },
+    "lega": { "short": "Lega", "full": "Ticino League" },
+    "kvp": { "short": "KVP", "full": "Catholic People's Party" },
+    "mcg": { "short": "MCG", "full": "Geneva Citizens' Movement" },
+    "ucsp": { "short": "CSP", "full": "Christian Social Party of Switzerland" },
+    "cvp": { "short": "CVP", "full": "Christian Democratic People's Party of Switzerland" },
+    "bdp": { "short": "BDP", "full": "Conservative Democratic Party" },
+    "lps": { "short": "LPS", "full": "Liberal Party of Switzerland" },
+    "ldu": { "short": "LDU", "full": "Alliance of Independents" },
+    "poch": { "short": "POCH", "full": "Progressive Organizations of Switzerland" },
+    "rep": { "short": "REP", "full": "Republican Movement" }
+  },
+  "cantons": {
+    "ZH": "Zurich",
+    "BE": "Bern",
+    "LU": "Lucerne",
+    "UR": "Uri",
+    "SZ": "Schwyz",
+    "OW": "Obwalden",
+    "NW": "Nidwalden",
+    "GL": "Glarus",
+    "ZG": "Zug",
+    "FR": "Fribourg",
+    "SO": "Solothurn",
+    "BS": "Basel-City",
+    "BL": "Basel-Country",
+    "SH": "Schaffhausen",
+    "AR": "Appenzell Ausserrhoden",
+    "AI": "Appenzell Innerrhoden",
+    "SG": "St. Gallen",
+    "GR": "Grisons",
+    "AG": "Aargau",
+    "TG": "Thurgau",
+    "TI": "Ticino",
+    "VD": "Vaud",
+    "VS": "Valais",
+    "NE": "Neuchâtel",
+    "GE": "Geneva",
+    "JU": "Jura"
+  },
+  "footer": {
+    "dataSource": "Data source:",
+    "projectInfo": "This dashboard was developed as part of a student project at Bern University of Applied Sciences (BFH).",
+    "authors": "Authors: ",
+    "supervisor": "Supervised by: ",
+    "license": "The entire source code is licensed under the"
+  }
+
+}
