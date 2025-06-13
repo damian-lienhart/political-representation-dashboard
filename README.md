@@ -32,19 +32,23 @@ Developed as part of a student project at **Berner Fachhochschule (BFH)**.
 
 ---
 
-##  Setup Instructions
+## Setup Instructions
+
+This deployment works on macOS, Linux, and Windows (via Git Bash or WSL).
 
 ```bash
 # 1. Download the deployment script
 curl -O https://raw.githubusercontent.com/damian-lienhart/political-representation-dashboard/main/deploy-server.sh
 
-# 2. Make it executable
+# 2. Make it executable (macOS, Linux, WSL, Git Bash)
 chmod +x deploy-server.sh
 
 # 3. Run the deployment script
 ./deploy-server.sh
 
 ```
+Windows users: Please use Git Bash or WSL (Windows Subsystem for Linux) to run the script.
+Do not run it in Command Prompt or PowerShell.
 
 Frontend: http://localhost:8080  
 Backend API: http://localhost:3000/api
