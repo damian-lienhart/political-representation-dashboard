@@ -36,7 +36,7 @@ Developed as part of a student project at **Berner Fachhochschule (BFH)**.
 
 ```bash
 # 1. Download the deployment script
-curl -O https://gitlab.ti.bfh.ch/your-group/political-representation-dashboard/-/raw/main/deploy-server.sh
+curl -O https://raw.githubusercontent.com/damian-lienhart/political-representation-dashboard/main/deploy-server.sh
 
 # 2. Make it executable
 chmod +x deploy-server.sh
